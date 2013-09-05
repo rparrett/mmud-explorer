@@ -213,3 +213,15 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+#Databases
+*.mdb
+
+#Executables
+*.exe
+
+#Config
+*.ini
+
+#Cached controls
+*.oca

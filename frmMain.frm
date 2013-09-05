@@ -22773,26 +22773,26 @@ tabRooms.Seek "=", nMapStartMap, nMapStartRoom
 If tabRooms.NoMatch Then GoTo out:
 
 Select Case KeyAscii
-    Case 46: 'd
+    Case 46, 45: 'd
         sLook = "D"
-    Case 48: 'u
+    Case 48, 61: 'u
         sLook = "U"
-    Case 49: 'sw
+    Case 49, 122: 'sw
         sLook = "SW"
-    Case 50: 's
+    Case 50, 120: 's
         sLook = "S"
-    Case 51: 'se
+    Case 51, 99: 'se
         sLook = "SE"
-    Case 52: 'w
+    Case 52, 97: 'w
         sLook = "W"
     'Case 53:
-    Case 54: 'e
+    Case 54, 100: 'e
         sLook = "E"
-    Case 55: 'nw
+    Case 55, 113: 'nw
         sLook = "NW"
-    Case 56: 'n
+    Case 56, 119: 'n
         sLook = "N"
-    Case 57: 'ne
+    Case 57, 101: 'ne
         sLook = "NE"
     Case Else: GoTo out:
 End Select
